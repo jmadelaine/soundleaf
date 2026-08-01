@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "format": "prettier --write .",
+    "lint": "oxlint",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -19,6 +21,8 @@
   "devDependencies": {
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "oxlint": "1.76.0",
+    "prettier": "3.9.6",
     "typescript": "^5.8.0"
   }
 }
